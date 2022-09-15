@@ -18,6 +18,7 @@ def gen_pswd(length, lwr_case=True, upr_case=True, num=True, special_char=True):
     if special_char:
         alphabet += string.punctuation
 
+
     while True:
         password = ''
 
